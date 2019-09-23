@@ -1,5 +1,5 @@
 [Unit]
-Description=Object Detection API Demo
+Description=Seedbot API Demo
 After=syslog.target network.target auditd.service
 
 [Service]
