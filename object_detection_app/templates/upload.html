@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Object Detection API</title>
+    <title>Seedbot API</title>
     <link rel='shortcut icon' href='favicon.ico'/>
 
     <script language="javascript" type="text/javascript">
@@ -29,8 +29,8 @@
 
     {% from "_formhelpers.html" import render_field %}
 
-    <h1>Object Detection API</h1>
-    <h3>Upload a color photo file.</h3>
+    <h1>Seedbot API</h1>
+    <h3>Seleccionar imagen</h3>
     <div>
       <form id="upload" method=post action={{ url_for('post') }} enctype="multipart/form-data">
         {{ render_field(photo_form.input_photo) }}
